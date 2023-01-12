@@ -1,0 +1,19 @@
+﻿<Window x:Class="SwitchLanguages_Demo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        xmlns:local="clr-namespace:SwitchLanguages_Demo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="{DynamicResource English}" HorizontalAlignment="Left" Margin="464,57,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button x:Name="buttonNewTaskWindow" Content="{DynamicResource buttonNewTaskWindow}" Margin="136,292,534,93"/>
+
+        <Button x:Name="buttonProperty" Content="{DynamicResource buttonProperty}" Margin="124,228,523,162"/>
+        <Button Content="{DynamicResource Chinese}" HorizontalAlignment="Left" Margin="554,57,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+
+    </Grid>
+
+</Window>
